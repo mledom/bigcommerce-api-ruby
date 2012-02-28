@@ -1,3 +1,5 @@
+require "bigcommerce/version"
+
 require "cgi"
 require "uri"
 require "net/https"
@@ -8,7 +10,3 @@ require "json"
 require File.join(File.dirname(__FILE__), 'bigcommerce', 'resource')
 require File.join(File.dirname(__FILE__), 'bigcommerce', 'api')
 require File.join(File.dirname(__FILE__), 'bigcommerce', 'connection')
-
-module BigCommerce
-  VERSION = "0.0.6"
-end

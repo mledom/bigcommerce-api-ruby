@@ -1,4 +1,4 @@
-
+require "bundler/gem_tasks"
 require 'lib/bigcommerce'
 
 task :build do
