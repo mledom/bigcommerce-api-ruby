@@ -1,6 +1,3 @@
-
-require 'lib/bigcommerce'
-
 Gem::Specification.new do |s|
   s.name     = "bigcommerce"
   s.version  = BigCommerce::VERSION
