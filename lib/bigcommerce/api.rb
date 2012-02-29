@@ -41,6 +41,10 @@ module BigCommerce
 		def get_orders_by_date(date)
 			@connection.get 'orders?min_date_created=' + CGI::escape(date)
 		end
+		
+		def get_time
+			@connection.get '/time'
+		end
 
 		private
       def is_plural?(string)
